@@ -2,7 +2,6 @@
 
 
 
-
 target = gg.getTargetInfo()
 
 if (not target) then
