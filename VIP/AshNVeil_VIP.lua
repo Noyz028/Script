@@ -1,8 +1,9 @@
 
 
-gg.setVisible(true)
+
 target = gg.getTargetInfo()
 
+gg.setVisible(true)
 if (not target) then
     gg.alert("Failed to get target info.")
     do return end
@@ -24,12 +25,15 @@ if v.processName~=Package then
 end
 --███████████████████████
 
+gg.setVisible(true)
 function main()
      menu = gg.choice({
         "🔸Free Shop🔸",
         "EXIT"},
         0, 
         "✧ Ash N Veil VIP ✧\n✧ YouTube ⊹иσιcε⊹ ✧")
+
+if menu == nil then return end
 
 if menu == 1 then
 FreeShop()
