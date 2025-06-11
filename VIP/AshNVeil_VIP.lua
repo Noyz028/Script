@@ -1,6 +1,6 @@
 
 
-
+gg.setVisible(true)
 target = gg.getTargetInfo()
 
 if (not target) then
