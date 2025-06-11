@@ -25,7 +25,7 @@ if v.processName~=Package then
 end
 --███████████████████████
 
-gg.setVisible(true)
+
 function main()
      menu = gg.choice({
         "🔸Free Shop🔸",
